@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>0.0.4</Version>
+        <Title>CoreBrew.Enumerable</Title>
+        <Description>Package containing CoreBrew destilled extensions and classes to make interaction with Enumeration easier. </Description>
+        <Copyright>CoreBrew</Copyright>
+        <PackageProjectUrl>https://github.com/CoreBrew/Enumerable</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/CoreBrew/Enumerable</RepositoryUrl>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Authors>CoreBrew</Authors>
+        <PackageIcon>CoreBrew_96.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+        <None Include="LICENSE.md" Pack="true" PackagePath="" />
+        <None Include="../../README.md" Pack="true" PackagePath="" />
+        <None Include="CoreBrew_96.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+</Project>
